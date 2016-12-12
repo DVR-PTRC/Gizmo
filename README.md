@@ -28,5 +28,4 @@ Code description:
 The code work as an event base routine so the program in every loop will drive all the actuators at the same time (servo motors and steppers motors), review the state of the sensors (piezo electrics) and check the time to play the instruments. For this Project we decide to use object oriented programing because we have modular mechanisms so if the amount of modules changes, the code will easily adapt to it. To drive the stepper motor, we used a library that can handle multiple steppers at time, using timers instead of delay to not interfere with the program routine. Finally, to store the music we used a two-dimensional array, storing in the first column the note to be played and its tempo in the second column, so each time that the program plays a note it reads the next row. 
 
 
-
-
+https://github.com/DVR-PTRC/Gizmo/files/647471/Gizmo.code.Summary.pdf
