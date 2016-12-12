@@ -12,10 +12,15 @@ Control two groups of modular mechanisms to make music with harmonicas and piezo
 Code requirements:
 
 •	Drive 2 or more steppers motors at the same time.
+
 •	Drive 7 servo motors at the same time.
+
 •	Store one or more songs in musical notation with its tempo for each note.
+
 •	Play each modular mechanism by checking the tempo (time between execution).
+
 •	Check the state of the piezo electric sensor to send a serial message to a computer to play sample sounds.
+
 •	Do all other requirements at the same time, based on time and sensors events routine without using delay function.
 
 Code description:
